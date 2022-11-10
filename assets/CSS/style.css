@@ -22,7 +22,7 @@ a {
     text-align: center;
     padding: 20px;
     font-family: 'Parisienne', cursive;
-    font-size: 350%;
+    font-size: 400%;
     color: black;
 }
 
@@ -115,3 +115,29 @@ footer {
 #paintings > img {
     width: 100%;
 }
+
+/* about information*/
+
+.container {
+    margin-top: 20px;
+    margin-left: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  
+  img {
+    max-width: 100%
+  }
+  
+  .image {
+    flex-basis: 40%
+  }
+  
+  .text {
+    font-size: 20px;
+    padding: 20px;
+    margin-right: 20%;
+    margin-left: 10px;
+
+  }
