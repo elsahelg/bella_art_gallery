@@ -82,3 +82,16 @@ footer {
     margin-right: 350px;
     margin-left: 50px;
 }
+
+/* Gallery */
+
+#paintings {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#paintings > img {
+    width: 100%;
+}
