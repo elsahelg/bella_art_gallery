@@ -10,9 +10,35 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     }
+a {    
+    text-decoration: none;
+    color: black;
+   }
+   
+/* logo and navigation */
+
 #logo {
     text-align: center;
     padding: 30px;
     font-family: 'Parisienne', cursive;
-    font-size: 300%;
+    font-size: 350%;
 }
+
+#menu {
+    text-align: center;
+    font-size: 150%;
+}
+
+#menu li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 30px;   
+}
+
+#menu a:hover {
+    text-decoration: underline;
+  }
+#menu a:active {
+    text-decoration: underline;
+  }
+
