@@ -6,6 +6,7 @@ body {
   font-weight: 300;
   margin-right: 50px;
   margin-left: 50px;
+  margin-top: 0;
 }
 
 /* logo and navigation */
@@ -19,37 +20,41 @@ a:visited {
   color: black;
 }
 
+header {
+  background-color: #fff;
+}
+section {
+  background-color: #fff;
+}
 nav {
   display: inline;
-  line-height: 50px;
+  line-height: 75px;
 }
 
 #menu {
   text-align: center;
-  font-size: 100%;
+  font-size: 120%;
   font-weight: bold;
-  display: inline;
-  float: right;
-  margin: 0;
+  margin-bottom: 25px;
 }
 
 #logo {
-  text-align: left;
-  display: inline;
+  text-align: center;
   font-family: 'Parisienne', cursive;
-  font-size: 200%;
+  font-size: 350%;
   color: black;
-  margin-left: 50px;
+  margin-bottom: 0;
+  line-height: 75px;
 }
 
 
 #menu li {
   list-style-type: none;
   display: inline;
-  margin-right: 20px;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
   text-transform: uppercase;
   text-align: center;
+  padding: 10px;
 }
 
 li a:hover {
@@ -71,29 +76,35 @@ li a:hover {
 /* home page content */
 .container-home {
   width: 100%;
-  position: relative;
+  height: 600px;
+  background-image: url(../images/qoute_img.jpg);
+  background-repeat: repeat;
+  background-size: contain;
+  background-color: #fff;
+  background-position: top center;
+  overflow: auto;
 }
 
 .qoute, h2 {
   color: #fff;
+  text-transform: uppercase;
 }
 
 .qoute {
-  position: absolute;
-  bottom: 200px;
-  left: 400px;
+  padding-top: 50px;
   font-size: 100%;
-  width: fit-content;
-  height: fit-content;
-  padding: 10px;
+  width: 40%;
+  height: 550px;
+  text-align: center;
   background-color: rgb(157,16,61,.3);
+
 }
 
-.image-home {
+/*.image-home {
   width: 100%;
   background-color: #fff;
   text-align: center;
-}
+}*/
 
 
 
@@ -104,14 +115,27 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 75px;
+  height: 50px;
   background-color: rgb(221, 216, 214);
+  text-align: center;
+  display: inline;
+}
+
+#footer > ul, footer > ul {
+  display: inline;
 }
 
 #left-menu li {
   list-style: none;
   font-size: 18px;
-  margin-left: 50px;
+  margin-left: 20px;
+  display: inline;
+}
+#right-menu li {
+  list-style: none;
+  font-size: 18px;
+  margin-left: 20px;
+  display: inline;
 }
 
 /* Gallery */
