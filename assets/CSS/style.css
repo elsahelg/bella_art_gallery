@@ -203,7 +203,8 @@ section .container {
   width: 30%;
   height: auto;
   float: left;
-  padding-top: 50px;
+  margin-top: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .image2 img {
@@ -211,7 +212,8 @@ section .container {
   height: auto;
   display: inline;
   float: right;
-  padding-top: 50px;
+  margin-top: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .container h1 {
   text-align: center;
@@ -219,7 +221,7 @@ section .container {
   text-transform: uppercase;
 }
 .container p {
-  text-align: center;
+  text-align: justify;
   font-size: 120%;
   padding-left: 35%;
   padding-right: 35%;
