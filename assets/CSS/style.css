@@ -4,8 +4,56 @@ body {
   background-color: #ddd8d6;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  margin-right: 45px;
-  margin-left: 45px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+/* logo and navigation */
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+nav {
+  display: inline;
+  line-height: 50px;
+}
+
+#menu {
+  text-align: center;
+  font-size: 100%;
+  font-weight: bold;
+  display: inline;
+  float: right;
+  margin: 0;
+}
+
+#logo {
+  text-align: left;
+  display: inline;
+  font-family: 'Parisienne', cursive;
+  font-size: 200%;
+  color: black;
+  margin-left: 50px;
+}
+
+
+#menu li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+li a:hover {
+  text-decoration: underline;
 }
 
 /* hero image */
@@ -13,95 +61,56 @@ body {
 #hero-image {
   width: 100%;
   height: 400px;
-  position: relative;
   background-size: contain;
-  background-position: top center;
+  background-position: center;
   background-image: url(../images/header_img2.jpg);
   background-repeat: repeat-x;
-  background-color: #ddd8d6;
-}
-
-/* logo and navigation */
-
-a {
-  text-decoration: none;
-}
-
-#menu {
-  text-align: center;
-  font-size: 150%;
-  font-weight: bold;
-    background-color: rgb(255,255,255)
-
-    /* rgb(232,229,227);*/
-}
-
-#logo {
-  text-align: left;
-  display: inline;
-  padding: 0;
-  font-family: 'Parisienne', cursive;
-  font-size: 300%;
-  color: black;
-  margin-right: 150px;
-}
-
-
-#menu li {
-  list-style-type: none;
-  display: inline;
-  margin-right: 30px;
-  margin-left: 30px;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-li a {
-  text-decoration: none;
-  color: black;
-  background-color: #ddd8d6;
-}
-
-li a:hover {
-  text-decoration: underline;
+  background-color: #fff;
 }
 
 /* home page content */
+.container-home {
+  width: 100%;
+  position: relative;
+}
+
+.qoute, h2 {
+  color: #fff;
+}
+
+.qoute {
+  position: absolute;
+  bottom: 200px;
+  left: 400px;
+  font-size: 100%;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  background-color: rgb(157,16,61,.3);
+}
 
 .image-home {
-  text-align: center;
+  width: 100%;
   background-color: #fff;
-
+  text-align: center;
 }
 
-.image-home > img {
-  border-top: #fff;
-}
+
 
 /* links listed in footer */
 
 footer {
-  display: inline;
+  position: fixed;
+  bottom: 0;
+  left: 0;
   width: 100%;
+  height: 75px;
+  background-color: rgb(221, 216, 214);
 }
 
-#left-menu {
+#left-menu li {
   list-style: none;
-  text-align: bottom;
-  float: left;
-  width: 20%;
-  margin-left: 350px;
-  margin-right: 50px;
-
-}
-
-#right-menu {
-  list-style: none;
-  text-align: bottom;
-  float: right;
-  width: 20%;
-  margin-right: 350px;
+  font-size: 18px;
   margin-left: 50px;
 }
 
@@ -143,3 +152,7 @@ img {
   margin-left: 10px;
 
 }
+
+/* Media screen*/
+
+@media and (max-width: 1200px) {}
