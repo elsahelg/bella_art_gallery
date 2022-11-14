@@ -171,9 +171,6 @@ footer>ul {
 }
 
 /* Gallery */
-section #paintings {
-
-}
 
 #paintings {
   clear: both;
@@ -190,49 +187,65 @@ section #paintings {
 
 /* about information*/
 
-section .container {
+div .container {
   display: border-box;
   width: 100%;
+  height: auto;
   float: left;
-  height: 1200px;
-}
-
-.text div {
-  width: 30%;
-  height: 1200px;
-  float: left;
+  padding-bottom: 150px;
+  background-color: #ddd8d6;
 }
 
 .image img {
-  width: 30%;
+  width: 35%;
   height: auto;
   float: left;
-  margin-top: 50px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 5px 10px 18px #464545;
+  margin-left: 10%;
+  margin-top: 15px;
 }
 
 .image2 img {
-  width: 30%;
+  width: 35%;
   height: auto;
   display: inline;
   float: right;
-  margin-top: 50px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-right: 10%;
+  margin-top: 15px;
+  box-shadow: 5px 10px 18px #464545;
 }
 
-.container h1 {
+.container h2 {
   text-align: center;
-  padding-top: 50px;
   text-transform: uppercase;
-}
-
-.container p {
-  text-align: justify;
+  letter-spacing: 2px;
+  color: black;
   font-size: 120%;
-  padding-left: 35%;
-  padding-right: 35%;
 }
 
+div .about-right {
+background-color: #fff;
+width: 35%;
+float: right;
+margin-right: 10%;
+margin-top: 15px;
+box-shadow: 5px 10px 18px #464545;
+}
+
+div .about-left {
+  background-color: #fff;
+  width: 35%;
+  float: left;
+  margin-left: 10%;
+  margin-top: 15px;
+  box-shadow: 5px 10px 18px #464545;
+  margin-bottom: 150px;
+  }
+
+.about-left p, .about-right p {
+  text-align: justify;
+  padding: 10px 20px 10px 20px;
+}
 .container a:hover {
   text-decoration: underline;
 }
