@@ -9,8 +9,6 @@ body {
   margin-top: 0;
 }
 
-/* logo and navigation */
-
 a {
   text-decoration: none;
   color: black;
@@ -49,8 +47,8 @@ nav {
   color: black;
   margin-bottom: 0;
   line-height: 75px;
+  text-shadow: 0 2px 2px black;
 }
-
 
 #menu li {
   list-style-type: none;
@@ -59,13 +57,12 @@ nav {
   text-transform: uppercase;
   text-align: center;
   padding: 20px;
+  text-shadow: 0 0 1px black;
 }
 
 li a:hover {
   text-decoration: underline;
 }
-
-/* hero image */
 
 #hero-image {
   width: 100%;
@@ -77,7 +74,6 @@ li a:hover {
   background-color: #fff;
 }
 
-/* home page content */
 .container-home {
   width: 100%;
   height: 900px;
@@ -90,15 +86,17 @@ li a:hover {
 }
 
 .qoute,
-h2 {
+.qoute>h2 {
   color: #fff;
   text-transform: uppercase;
+  text-shadow: 2px 5px 2px black;
 }
 
 .qoute2,
-h2 {
+.qoute2>h2 {
   color: #fff;
   text-transform: uppercase;
+  text-shadow: 2px 5px 2px black;
 }
 
 .qoute {
@@ -111,7 +109,6 @@ h2 {
   float: left;
   padding: o;
   letter-spacing: 8px;
-
 }
 
 .qoute2 {
@@ -125,18 +122,7 @@ h2 {
   padding-top: 150px;
   padding-left: 0;
   letter-spacing: 8px;
-
 }
-
-/*.image-home {
-  width: 100%;
-  background-color: #fff;
-  text-align: center;
-}*/
-
-
-
-/* links listed in footer */
 
 footer {
   position: fixed;
@@ -149,7 +135,7 @@ footer {
   display: inline;
   padding-bottom: 10px;
   padding-top: 10px;
-  border-top: black solid 4px;
+  border-top: rgb(50, 49, 49) outset 4px;
 }
 
 footer>ul {
@@ -159,7 +145,6 @@ footer>ul {
 #left-menu li {
   list-style: none;
   font-size: 18px;
-  margin-left: 10px;
   display: inline;
 }
 
@@ -169,8 +154,6 @@ footer>ul {
   margin-left: 20px;
   display: inline;
 }
-
-/* Gallery */
 
 #paintings {
   clear: both;
@@ -185,14 +168,11 @@ footer>ul {
   width: 100%;
 }
 
-/* about information*/
-
 div .container {
   display: border-box;
   width: 100%;
   height: auto;
   float: left;
-  padding-bottom: 150px;
   background-color: #ddd8d6;
 }
 
@@ -215,21 +195,13 @@ div .container {
   box-shadow: 5px 10px 18px #464545;
 }
 
-.container h2 {
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: black;
-  font-size: 120%;
-}
-
 div .about-right {
-background-color: #fff;
-width: 35%;
-float: right;
-margin-right: 10%;
-margin-top: 15px;
-box-shadow: 5px 10px 18px #464545;
+  background-color: #fff;
+  width: 35%;
+  float: right;
+  margin-right: 10%;
+  margin-top: 15px;
+  box-shadow: 5px 10px 18px #464545;
 }
 
 div .about-left {
@@ -240,23 +212,37 @@ div .about-left {
   margin-top: 15px;
   box-shadow: 5px 10px 18px #464545;
   margin-bottom: 150px;
-  }
+}
 
-.about-left p, .about-right p {
+.container h2 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: black;
+  font-size: 120%;
+  text-shadow: 0 0 1px black;
+}
+
+.about-left p,
+.about-right p {
   text-align: justify;
   padding: 10px 20px 10px 20px;
+  letter-spacing: 1px;
 }
+
+.container a:link {
+  font-size: 80%;
+  text-align: center;
+}
+
 .container a:hover {
   text-decoration: underline;
 }
 
-/* Media screen*/
-
 @media screen and (max-width: 1100px) {
-
-#hero-image {
-  height: 300px;
-}
+  #hero-image {
+    height: 300px;
+  }
 
   .qoute {
     width: 300px;
@@ -269,71 +255,134 @@ div .about-left {
   }
 
   #paintings {
-  column-count: 3;
+    column-count: 3;
+  }
+
+  .image img {
+    width: 45%;
+    margin-left: 0;
+  }
+
+  .image2 img {
+    width: 50%;
+    margin-right: 0;
+  }
+
+  div .about-right {
+    width: 50%;
+    margin-right: 0;
+  }
+
+  div .about-left {
+    width: 45%;
+    margin-left: 0;
+  }
 }
 
 @media screen and (max-width: 700px) {
-  
-#logo {
-  line-height: 50px;
-  font-size: 250%;
-  margin-top: 30px;
-}
+  #logo {
+    line-height: 50px;
+    font-size: 250%;
+    margin-top: 30px;
+  }
 
-nav #menu {
-  line-height: 50px;
-  font-size: 100%;
-}
-.qoute {
-  width: 100%;
-  height: 45%;
-  font-size: 80%;
-  padding-top: 50px;
-}
+  nav #menu {
+    line-height: 50px;
+    font-size: 100%;
+  }
 
-.qoute2 {
-  width: 100%;
-  height: 50%;
-  font-size: 80%;
-  padding-top: 50px;
-}
-#hero-image {
-  height: 250px;
-}
-#menu li {
-  padding: 15px;
-}
+  .qoute {
+    width: 100%;
+    height: 45%;
+    font-size: 80%;
+    padding-top: 50px;
+  }
 
-#paintings {
-  column-count: 2;
-}
+  .qoute2 {
+    width: 100%;
+    height: 50%;
+    font-size: 80%;
+    padding-top: 50px;
+  }
+
+  #hero-image {
+    height: 250px;
+  }
+
+  #menu li {
+    padding: 15px;
+  }
+
+  #paintings {
+    column-count: 2;
+  }
+
+  .image img {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .image2 img {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  div .about-right {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  div .about-left {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }
 
 @media screen and (max-width: 450px) {
-  
   #hero-image {
     height: 200px;
   }
+
   nav #menu {
     line-height: 20px;
   }
+
   #menu li {
     display: list-item;
     padding: 15px;
   }
+
   #logo {
     line-height: 30px;
     font-size: 200%;
     margin-top: 0;
   }
-  .qoute, .qoute2 {
+
+  .qoute,
+  .qoute2 {
     font-size: 60%;
     padding-top: 30px;
-}
-#hero-image {
-  height: 200px;
-}
-#paintings {
-  column-count: 1;
-}
+  }
+
+  #hero-image {
+    height: 200px;
+  }
+
+  #paintings {
+    column-count: 1;
+  }
+
+  .about-left p,
+  .about-right p {
+    font-size: 80%;
+    text-align: center;
+  }
+
+  .container h2 {
+    font-size: 90%;
+  }
 }
