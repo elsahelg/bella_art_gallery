@@ -133,9 +133,8 @@ footer {
   background-color: rgb(221, 216, 214);
   text-align: center;
   display: inline;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  border-top: rgb(50, 49, 49) outset 4px;
+  padding: 20px 20px;
+  border-top: rgb(50, 49, 49) outset 2px;
 }
 
 footer>ul {
@@ -144,15 +143,15 @@ footer>ul {
 
 #left-menu li {
   list-style: none;
-  font-size: 18px;
+  font-size: 20px;
   display: inline;
 }
 
 #right-menu li {
   list-style: none;
-  font-size: 18px;
-  margin-left: 20px;
+  font-size: 20px;
   display: inline;
+  padding-right: 50px;
 }
 
 #paintings {
@@ -340,6 +339,9 @@ div .about-left {
     margin-left: 5%;
     margin-right: 5%;
   }
+  #right-menu li, #left-menu li {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -384,5 +386,8 @@ div .about-left {
 
   .container h2 {
     font-size: 90%;
+  }
+  #right-menu li, #left-menu li {
+    font-size: 14px;
   }
 }
