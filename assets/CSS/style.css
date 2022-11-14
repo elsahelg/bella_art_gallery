@@ -107,10 +107,10 @@ h2 {
   width: 450px;
   height: 800px;
   text-align: center;
-  background-color: rgb(157, 16, 61, .4);
+  background-color: rgb(157, 16, 61, .3);
   float: left;
   padding: o;
-  letter-spacing: 4px;
+  letter-spacing: 8px;
 
 }
 
@@ -119,12 +119,12 @@ h2 {
   width: 450px;
   height: 800px;
   text-align: center;
-  background-color: rgb(157, 16, 61, .4);
+  background-color: rgb(157, 16, 61, .3);
   display: inline;
   float: right;
   padding-top: 150px;
   padding-left: 0;
-  letter-spacing: 4px;
+  letter-spacing: 8px;
 
 }
 
@@ -236,6 +236,10 @@ section .container {
 
 @media screen and (max-width: 1100px) {
 
+#hero-image {
+  height: 300px;
+}
+
   .qoute {
     width: 300px;
     font-size: 90%;
@@ -245,4 +249,63 @@ section .container {
     width: 300px;
     font-size: 90%;
   }
+}
+
+@media screen and (max-width: 700px) {
+  
+#logo {
+  line-height: 50px;
+  font-size: 250%;
+  margin-top: 30px;
+}
+
+nav #menu {
+  line-height: 50px;
+  font-size: 100%;
+}
+.qoute {
+  width: 100%;
+  height: 45%;
+  font-size: 80%;
+  padding-top: 50px;
+}
+
+.qoute2 {
+  width: 100%;
+  height: 50%;
+  font-size: 80%;
+  padding-top: 50px;
+}
+#hero-image {
+  height: 250px;
+}
+#menu li {
+  padding: 10px;
+}
+}
+
+@media screen and (max-width: 450px) {
+  
+  #hero-image {
+    height: 200px;
+  }
+  nav #menu {
+    line-height: 20px;
+  }
+  #menu li {
+    display: list-item;
+    padding: 10px;
+  }
+  #logo {
+    line-height: 30px;
+    font-size: 200%;
+    margin-top: 0;
+  }
+  .qoute, .qoute2 {
+    font-size: 60%;
+    padding-top: 30px;
+}
+#hero-image {
+  height: 200px;
+}
 }
