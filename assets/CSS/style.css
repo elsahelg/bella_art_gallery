@@ -94,14 +94,23 @@ li a:hover {
   line-height: 50px;
 }
 
-.qoute p, .qoute2 p {
+.qoute a:link,
+.qoute2 a:link {
   color: #fff;
-    text-shadow: 2px 2px 1px black;
-    line-height: 35px;
+  text-shadow: 2px 2px 1px black;
+  line-height: 35px;
 }
-.qoute a:hover {
+.qoute a:hover,
+.qoute2 a:hover {
   text-decoration: underline;
 }
+
+.qoute a:visited,
+.qoute2 a:visited {
+  color: #fff;
+  text-shadow: 2px 2px 1px black;
+}
+
 .qoute2,
 .qoute2>h2 {
   color: #fff;
