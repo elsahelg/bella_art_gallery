@@ -91,6 +91,7 @@ li a:hover {
   text-transform: uppercase;
   text-shadow: 2px 3px 1px black;
   font-weight: 300;
+  line-height: 50px;
 }
 
 .qoute2,
@@ -99,6 +100,7 @@ li a:hover {
   text-transform: uppercase;
   text-shadow: 2px 3px 1px black;
   font-weight: 300;
+  line-height: 50px;
 }
 
 .qoute {
@@ -130,11 +132,11 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 25px;
+  height: 20px;
   background-color: rgba(221, 216, 214);
   text-align: left;
   display: inline;
-  padding: 15px 0 15px 0;
+  padding: 10px 0 15px 0;
   border-top: rgba(0, 0, 0, 0.646) outset 1px;
 }
 
@@ -146,12 +148,14 @@ footer>ul {
   list-style: none;
   font-size: 18px;
   display: inline;
+  font-weight: 400;
 }
 
 #right-menu li {
   list-style: none;
-  font-size: 20px;
+  font-size: 18px;
   display: inline;
+  font-weight: 400;
 }
 
 #paintings {
@@ -231,6 +235,7 @@ div .about-left {
 .container a:link {
   font-size: 80%;
   text-align: center;
+  font-weight: 400;
 }
 
 .container a:hover {
@@ -277,7 +282,7 @@ div .about-left {
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 770px) {
   #logo {
     line-height: 50px;
     font-size: 250%;
@@ -294,6 +299,7 @@ div .about-left {
     height: 45%;
     font-size: 80%;
     padding-top: 75px;
+    line-height: 40px;
   }
 
   .qoute2 {
@@ -301,6 +307,7 @@ div .about-left {
     height: 50%;
     font-size: 80%;
     padding-top: 25px;
+    line-height: 40px;
   }
 
   #hero-image {
@@ -368,11 +375,13 @@ div .about-left {
   .qoute {
     font-size: 65%;
     padding-top: 75px;
+    line-height: 30px;
   }
 
   .qoute2 {
     font-size: 65%;
     padding-top: 0;
+    line-height: 30px;
   }
 
   #hero-image {
@@ -393,8 +402,4 @@ div .about-left {
     font-size: 90%;
   }
 
-  #right-menu li,
-  #left-menu li {
-    font-size: 10px;
-  }
 }
