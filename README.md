@@ -1,108 +1,174 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# <a href="https://github.com/elsahelg/bella_art_gallery/blob/main/README.md"> Bella Art Gallery </a>
+Bella Art Gallery is a site to showcase Bella's (Ms.K) art and give an insight to her inspiration behind the making of the art. This site targets anyone who are intrested in Bella's different forms of art. This site is an opportunity to get a full view of Bella as a multi-artist and experience her different art expressions. <br>
+<img src="assets/images/readme_responsive.png" alt="print screen of am I responsive"><br>
 
-Welcome Elsa Helg,
+## Features 
+### Existing Features
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<ul>
+<li>Hero image
+    <ul>
+        <li>Is designed from paintings made by Bella, her unique style sets her signature to the site.</li> 
+        <li>The image is positioned at the top of each page to give the user a first impression of Bella's art.</li>
+    </ul>
+        <img src="assets/images/read_me_hero.png" alt="print screen of Hero image">
+        <br>
+<li>Navigation bar
+<ul>
+<li> Features the logo and additional three descriptive links, one to each page of the website: Home, About and Gallery. The links provides navigation between and from each page.</li>
+<li> Is consistent in design and position throughout the site to enable easy access for the user.</li>
+<li> Displays underline to each link when hovered over to indicate that it is a clickable link. </li>
+</ul>
+</li><br>
+<img src="assets/images/nav_bar.png" alt="print screen of navigation bar">
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+<li><a href="https://github.com/elsahelg/bella_art_gallery/blob/main/index.html">The Home page </a>
+<ul>
+<li> The user is welcomed with two headings on each side of the page which is decorated by a background picture of Bella.</li> 
+<li>The left side heading aims to awaken the user's interest to learn more about Bella as an artist. The heading is followed by a link that navigates the user to 'About'.</li>
+<li>The right side heading aims to awaken the user's intrest to explore Bella's art. The heading is followed by a link that navigates the user to 'Gallery'.</li>
+<li>The links are underlined when hovered over.</li></ul>
+</li><br>
+<img src="assets/images/read_me_home.png" alt="print screen of home page content">
 
-## Gitpod Reminders
+<li> The Footer
+<ul>
+<li>Is static to the bottom of each page and provides the user with relavent social media links.</li>
+<li>The links will open in a new tab to simplify the user's further exploring of the current site.</li></ul>
+</li><br>
+<img src="assets/images/read_me_footer.png" alt="print screen of the footer"><br>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+<li> <a href="https://github.com/elsahelg/bella_art_gallery/blob/main/about.html">The About page </a>
+<ul>
+<li>Features information and artistic pictures of the Bella. Provides an overview of Bella's inspiration and different art forms.</li>
+<li>Features artist contact information, 'mailto-link' which opens the users default mail program to simplify the user's opportunity to get in touch with Bella.</li>
+<li>Further social media links are listed and sectioned with the relavent content of art form. Makes it easier for the user to target the right links in terms of intrest.</li></ul>
+</li><br>
+<img src="assets/images/read_me_about.png" alt="print screen of About page"><br>
 
-`python3 -m http.server`
+<li><a href="https://github.com/elsahelg/bella_art_gallery/blob/main/gallery.html">The Gallery page</a>
+<ul>
+<li>Features a collage of Bella's paintings.</li>
+<li>The user is provided to visually comprehend Bella's art.</li>
+<li>The user is offered a text alternetive to each painting which informs the material of use and name of the painting.</li></ul>
+</li><br>
+<img src="assets/images/read_me_gallery.png" alt="print screen of gallery page"><br>
+</ul>
 
-A blue button should appear to click: _Make Public_,
+## Features left to carry out
 
-Another blue button should appear to click: _Open Browser_.
+<ul>
+    <li>Modify the Art Gallery content by enabling an option to upscale each painting.</li>
+    <li>Add further Art content from Bella (videos of her art performance, more paintings to the Gallery).</li>
+    <li>Add further content about Bella and/or Ms. K and her expressions of art.</li>
+    <li>Fix bugs found in the Lighthouse testing, explained further down in this document.</li>
+</ul>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Testing layout and features responsive to different devices (screen width) with DevTools
+<br>
 
-A blue button should appear to click: _Make Public_,
+<img src="assets/images/read_me_770.png" alt="print screen of layout 770px wide"> <img src="assets/images/read_me_450.png" alt="print screen of layout 450px wide">
 
-Another blue button should appear to click: _Open Browser_.
+### Screen width: 2300px and 1200px
+<br>
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Home page: 
+Responsive layout and features, no error was encountered
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### About page: 
+Responsive layout and features, no error was encountered
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+### Gallery page: 
+Responsive layout and features, no error was encountered
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Hero image: 
+Responsive layout and features, no error was encountered
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Footer: 
+Responsive layout and features, no error was encountered
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Navigation bar and logo: 
+Responsive layout and features, no error was encountered
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+<br>
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Screen width: 1100px, 770px, 450px and down
+<br>
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Home page: responsive layout and features
+<ul> 
+    <li>Modify: content resized to correspond layout to screen size</li>
+    <li>Features: links works adequate, content view adequate</li>
+</ul>
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### About page: responsive layout and features
+<ul>
+    <li>Modify: content resized to correspond layout to screen size</li>
+    <li>Features: links works adequate, text and images view adequate</li>
+</ul>
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Gallery page: responsive layout and features
+<ul> 
+    <li>Modify: column display less numerous to correspond layout to screen size</li>
+    <li>Features: gallery images view adequate</li>
+</ul>
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Hero image: responsive layout and features
+<ul> 
+    <li>Modify: resize height to correspond layout to screen size</li>
+    <li>Features: image view adequate</li>
+</ul>
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Footer: responsive layout and features
+<ul>
+    <li>Modify: resize font to correspond layout to screen size</li>
+    <li>Features: links work adequate</li>
+</ul>
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Navigation bar and logo: responsive layout and features
+<ul>
+    <li>Modify: resize font and lineheight to correspond layout to screen size</li>
+    <li>Features: links work adequate, navigation bar and logo view adequate</li>
+</ul>
+<br>
+<img src="assets/images/read_me_1100.png" alt="print screen of layout 1100px wide">
+<br>
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Lighthouse testing result:
+<br>
+<img src="assets/images/read_me_light_home.png" alt="print screen lighthouse home page">
+<img src="assets/images/read_me_light_about.png" alt="print screen lighthouse about page">
+<img src="assets/images/read_me_light_gallery.png" alt="print screen lighthouse gallery page">
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Bugs related to high data consumption were found through the Lighthouse testing: 'Usage of image format JPEG or PNG' and 'Usage of full image sizes'. These bugs will be fixed by changing the current image formats and resizing the images before uploading them again. Due to a short time schedule these bugs remains unfixed for now but will be altered to minimize the consumption of data and maximize the user experience. 
+<br>
 
-------
+## Validator testing
 
-## FAQ about the uptime script
+<ul>HTML <a href="https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Felsahelg.github.io%2Fbella_art_gallery%2Findex.html">official W3C validator</a>
+<li>Passed through validation without error.</li></ul>
+<ul>CSS offical <a href="https://jigsaw.w3.org/css-validator/validator">(Jigsaw) validator</a>
+<li>Passed through validation without error.</li></ul>
 
-**Why have you added this script?**
+## Credits
+<br>
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Content
+<ul>
+    <li>All text about Bella and/or Ms. K is based on information and requests from Bella Demhat Aksoy Jämsen.</li>
+    <li>The template for the repository was provided by <a href="https://codeinstitute.net/se/">Code Institute.</a></li>
+    <li>Social media icons used in the footer and the About page is taken from <a href="https://fontawesome.com/">FontAwesome</a></li>
+    <li>Fonts used are taken from <a href="https://fonts.google.com/">Google Fonts</a></li>
+    <li>HTML and CSS tricks was learned and influenced from <a href="https://www.w3schools.com/default.asp">W3School</a></li>
+</ul>
 
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+### Media 
+<ul>
+    <li>All photos and images used is credited and copyrighted to Bella Demhat Aksoy Jämsen.</li>
+    <li>All external links are provided by Bella Demhat Aksoy Jämsen.</li>
+</ul>
