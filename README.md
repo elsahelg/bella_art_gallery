@@ -1,5 +1,10 @@
 # <a href="https://github.com/elsahelg/bella_art_gallery/blob/main/README.md"> Bella Art Gallery </a>
-Bella Art Gallery is a site to showcase Bella's (Ms.K) art and give an insight to her inspiration behind the making of the art. This site targets anyone who are intrested in Bella's different forms of art. This site is an opportunity to get a full view of Bella as a multi-artist and experience her different art expressions. <br>
+<br>
+
+Bella Art Gallery features an online art gallery showcasing Bella's paintings. The site targets anyone who wish to enjoy the art gallery or wants to know more about the artist. In addition, users are given a new opportunity to experience Bella's various art gathered in one place. The site allows users to get a full perspective of Bella (aka Ms.K) as a multi-artist. 
+
+The site allow users to explore diffrent forms of art as well as information about the artist. Users are offered easy navigation and design that mirrors Bella and her art.
+<br>
 <img src="assets/images/readme_responsive.png" alt="print screen of am I responsive"><br>
 
 ## Features 
@@ -9,13 +14,13 @@ Bella Art Gallery is a site to showcase Bella's (Ms.K) art and give an insight t
 <li>Hero image
     <ul>
         <li>Is designed from paintings made by Bella, her unique style sets her signature to the site.</li> 
-        <li>The image is positioned at the top of each page to give the user a first impression of Bella's art.</li>
+        <li>The image is positioned at the top of each page, followed by the logo and navigation bar.This layout is consistent for all pages with the purpose to allow art as users first impression and still provide easy and accessible navigation bar</li>
     </ul>
         <img src="assets/images/read_me_hero.png" alt="print screen of Hero image">
         <br>
 <li>Navigation bar
 <ul>
-<li> Features the logo and additional three descriptive links, one to each page of the website: Home, About and Gallery. The links provides navigation between and from each page.</li>
+<li> Features the logo and additional three descriptive links, one for each page of the website: Home, About and Gallery. The links provides navigation between each page.</li>
 <li> Is consistent in design and position throughout the site to enable easy access for the user.</li>
 <li> Displays underline to each link when hovered over to indicate that it is a clickable link. </li>
 </ul>
@@ -59,9 +64,8 @@ Bella Art Gallery is a site to showcase Bella's (Ms.K) art and give an insight t
 
 <ul>
     <li>Modify the Art Gallery content by enabling an option to upscale each painting.</li>
-    <li>Add further Art content from Bella (videos of her art performance, more paintings to the Gallery).</li>
-    <li>Add further content about Bella and/or Ms. K and her expressions of art.</li>
-    <li>Fix bugs found in the Lighthouse testing, explained further down in this document.</li>
+    <li>Add further Art Content from Bella (videos of art performance, more paintings to the Gallery, music player).</li>
+    <li>Add further information about Bella and/or Ms. K.</li>
 </ul>
 
 ## Testing layout and features responsive to different devices (screen width) with DevTools
@@ -139,9 +143,9 @@ Responsive layout and features, no error was encountered
 <img src="assets/images/read_me_1100.png" alt="print screen of layout 1100px wide">
 <br><br>
 
-## Lighthouse testing
+## Lighthouse testing quality of web pages
 
-The site pages was tested through DevTools Lighthouse with good result.  
+Each page ('Home', 'About', 'Gallery') was analyzed by the DevTools Lighthouse. All pages passed as good quality, the results are presented below.
 
 <img src="assets/images/read_me_light_home.png" alt="print screen lighthouse home page">
 <img src="assets/images/read_me_light_about.png" alt="print screen lighthouse about page">
