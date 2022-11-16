@@ -137,16 +137,16 @@ Responsive layout and features, no error was encountered
 </ul>
 <br>
 <img src="assets/images/read_me_1100.png" alt="print screen of layout 1100px wide">
-<br>
+<br><br>
 
-## Lighthouse testing result:
-<br>
+## Lighthouse testing
+
+The site pages was tested through DevTools Lighthouse with good result.  
+
 <img src="assets/images/read_me_light_home.png" alt="print screen lighthouse home page">
 <img src="assets/images/read_me_light_about.png" alt="print screen lighthouse about page">
 <img src="assets/images/read_me_light_gallery.png" alt="print screen lighthouse gallery page">
 
-Bugs related to high data consumption were found through the Lighthouse testing: 'Usage of image format JPEG or PNG' and 'Usage of full image sizes'. These bugs will be fixed by changing the current image formats and resizing the images before uploading them again. Due to a short time schedule these bugs remains unfixed for now but will be altered to minimize the consumption of data and maximize the user experience. 
-<br>
 
 ## Validator testing
 
@@ -155,20 +155,30 @@ Bugs related to high data consumption were found through the Lighthouse testing:
 <ul>CSS offical <a href="https://jigsaw.w3.org/css-validator/validator">(Jigsaw) validator</a>
 <li>Passed through validation without error.</li></ul>
 
+## Deployment
+The site was deployed to GitHub pages by following the steps listed below:
+<ol>
+    <li>I navigated to 'My Repositories' in GitHub and selected the 'Bella_Art_Gallery' Repository</li>
+    <li>From the tab bar I opened 'Settings' and navigated to 'Pages' from the leftside menu</li>
+    <li>I selected 'Deploy from branch' from the 'Source' drop-down meny</li>
+    <li>Below I selected the 'Main' branch and saved by clicking the 'Save' button</li>
+</ol>
+The deployment was successful! <a href="https://elsahelg.github.io/bella_art_gallery/"> Visit the live site </a>
+<br><br>
+
 ## Credits
-<br>
 
 ### Content
 <ul>
     <li>All text about Bella and/or Ms. K is based on information and requests from Bella Demhat Aksoy Jämsen.</li>
-    <li>The template for the repository was provided by <a href="https://codeinstitute.net/se/">Code Institute.</a></li>
-    <li>Social media icons used in the footer and the About page is taken from <a href="https://fontawesome.com/">FontAwesome</a></li>
+    <li>The template for the repository is provided by <a href="https://codeinstitute.net/se/">Code Institute.</a></li>
+    <li>Social media icons used in the footer and the About page are taken from <a href="https://fontawesome.com/">FontAwesome</a></li>
     <li>Fonts used are taken from <a href="https://fonts.google.com/">Google Fonts</a></li>
-    <li>HTML and CSS tricks was learned and influenced from <a href="https://www.w3schools.com/default.asp">W3School</a></li>
+    <li>HTML and CSS tricks are influenced by <a href="https://www.w3schools.com/default.asp">W3School</a></li>
 </ul>
 
 ### Media 
 <ul>
-    <li>All photos and images used is credited and copyrighted to Bella Demhat Aksoy Jämsen.</li>
+    <li>All photos and images used are credited and copyrighted to Bella Demhat Aksoy Jämsen.</li>
     <li>All external links are provided by Bella Demhat Aksoy Jämsen.</li>
 </ul>
